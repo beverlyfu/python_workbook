@@ -1,0 +1,29 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Sep  1 22:52:55 2019
+
+@author: beverlyfu
+"""
+input("Please enter your name: ")
+Year = int(input("Please enter your year of birth: "))
+
+#how many days lived to this point (to the nearest year)
+Days_Lived = (2019 - Year)*365
+print ("You have lived:", Days_Lived, "days.")
+import time
+time.sleep (1)
+
+#how many hours lived to this point
+Hours_Lived = Days_Lived*24
+print ("You have lived:", Hours_Lived, "hours.")
+time.sleep (1)
+
+#how many minutes lived to this point
+Minutes_Lived = Hours_Lived*60
+print ("You have lived:" , Minutes_Lived, "minutes.")
+time.sleep (1)
+
+#how many seconds lived to this point
+Seconds_Lived = Minutes_Lived*60
+print ("You have lived:" , Seconds_Lived, "seconds.")

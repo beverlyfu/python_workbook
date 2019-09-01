@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Sep  1 22:45:05 2019
+
+@author: beverlyfu
+"""
+# area calculator -----------
+import time
+Length = float(input("Please enter the length of the room in metres: "))
+Width = float(input("Please enter the width of the room in metres: "))
+time.sleep(2)
+print("The area of your room is: ", Length*Width)
